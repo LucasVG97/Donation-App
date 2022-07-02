@@ -37,3 +37,14 @@ $ ionic serve
 ```
 
 After that you will experience this app on browser through the Localhost 8100 port (http://localhost:8100)
+
+
+If you have Android Studio or any android emulator installed, you can run the app on your virtual device for a live editing experience. Run the following command:
+
+```bash
+$ ionic cap run android -l --external
+```
+
+Below, can see an Android device running the app:
+
+<img src="https://github.com/LucasVG97/Donation-App/blob/main/android.gif" width="250" height="450" />
