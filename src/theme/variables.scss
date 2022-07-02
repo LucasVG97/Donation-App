@@ -4,7 +4,7 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #fd78eb;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
@@ -74,6 +74,31 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+
+  /** background **/
+  --ion-background-color: linear-gradient(180deg, #ff60ea 0%, #90d3ff 100%);
+  --ion-background-color-rgb: 18,18,18;
+
+  --ion-text-color: #ffffff;
+  --ion-text-color-rgb: 255,255,255;
+
+  --ion-card-background: linear-gradient(90deg, #002238 0%, #0066aa 100%);
+
+  --ion-item-background: transparent;
+
+  --ion-item-color:#d0ecff;
+
+  --ion-toolbar-background: linear-gradient(90deg, #002238 0%, #0066aa 100%);
+
+  --ion-toolbar-color: #ff60ea;
+
+  --ion-tab-bar-background: linear-gradient(180deg, #002238 0%, #0066aa 100%);
+
+  --ion-tab-bar-color: #d0ecff;
+
+  --ion-font-family: 'Poppins', sans-serif;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -197,7 +222,7 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: linear-gradient(180deg, #002238 0%, #0066aa 100%);
     --ion-background-color-rgb: 18,18,18;
 
     --ion-text-color: #ffffff;
@@ -225,12 +250,22 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-    --ion-item-background: #1e1e1e;
+    --ion-card-background: linear-gradient(90deg, #002238 0%, #0066aa 100%);
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-item-background: transparent;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-item-color:#d0ecff;
 
-    --ion-card-background: #1e1e1e;
+    --ion-toolbar-background: #002238;
+
+    --ion-toolbar-color: #d0ecff;
+
+    --ion-tab-bar-background: #002238;
+
+    --ion-tab-bar-color: #d0ecff;
+
+    --ion-font-family: 'Poppins', sans-serif;
   }
+
+  
 }

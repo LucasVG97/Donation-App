@@ -1,17 +1,47 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title class="tab-title">
+      Donate
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div class="animate__animated animate__zoomInDown ">
+    <ion-card (click)="onBloodDonation()">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="../../assets/images/blood.png" alt="blood-donation-image">
+        </ion-thumbnail>
+        <ion-label>
+         Blood
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  
+    <ion-card (click)="onClothesDonation()">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="../../assets/images/clothes.png" alt="clothes-donation-image">
+        </ion-thumbnail>
+        <ion-label>
+         Clothes
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  
+    <ion-card (click)="onFoodDonation()">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="../../assets/images/food.png" alt="food-donation-image">
+        </ion-thumbnail>
+        <ion-label>
+         Food
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+  
+
 </ion-content>

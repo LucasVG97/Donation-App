@@ -1,17 +1,39 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-title class="tab-title">
+      Home
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="container animate__animated animate__zoomInDown ">
+    <img id="donation-image" src="../../assets/images/donation.png" alt="donation-image">
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <p>There are many people who needs different kinds of donation, by using this app, you can help them. If you do, they will be very thankful!</p>
+
+    <ion-card [routerLink]="['/tabs/tab2']" >
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="../../assets/images/make-donation.png" alt="make-donation-image">
+        </ion-thumbnail>
+        <ion-label>
+          Make Donation
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card [routerLink]="['/tabs/tab3']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img src="../../assets/images/need-donation.png" alt="need-donation-image">
+        </ion-thumbnail>
+        <ion-label>
+        Ask Donation
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+  </div>
+  
 </ion-content>

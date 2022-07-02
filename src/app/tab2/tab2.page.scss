@@ -1,0 +1,16 @@
+ion-item:hover{
+  animation: scale-right 4s infinite;
+  cursor:pointer;
+}
+
+@keyframes scale-right {
+  0% {
+    transform: scale(1) ;
+  }
+  50% {
+    transform: scale(0.9) translateX(3rem);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

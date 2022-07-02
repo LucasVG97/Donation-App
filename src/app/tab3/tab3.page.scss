@@ -1,0 +1,18 @@
+#peopleImage {
+  padding-top: 1rem;
+  width: 100%;
+  max-width: 20rem;
+
+  animation: upDown 3s infinite alternate;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 31rem;
+  padding: 1rem;
+  margin: 0 auto;
+}
