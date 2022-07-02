@@ -47,4 +47,4 @@ $ ionic cap run android -l --external
 
 Below, can see an Android device running the app:
 
-<img src="https://github.com/LucasVG97/Donation-App/blob/main/android.gif" width="250" height="450" />
+<img src="https://github.com/LucasVG97/Donation-App/blob/main/android.gif" width="280" height="400" />
